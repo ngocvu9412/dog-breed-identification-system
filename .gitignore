@@ -1,0 +1,17 @@
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# eval artifacts (regenerable)
+eval_report.json
+_answer_eval.log
+
+# model caches if local
+.cache/
+
+# keep poc images and docs: they are part of the repo
+# docs not part of the runtime (user: only the necessary parts)
+EXPLAINED.md
+PLAN.md
+poc/m1_classifier_poc.py

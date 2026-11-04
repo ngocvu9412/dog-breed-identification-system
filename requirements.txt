@@ -1,0 +1,6 @@
+torch>=2.0
+torchvision>=0.15
+pillow>=10.0
+numpy>=1.24
+FlagEmbedding>=1.2
+pytest>=7.0
